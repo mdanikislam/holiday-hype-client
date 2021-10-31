@@ -25,7 +25,7 @@ const Cart = () => {
         {selectedCourse.length ? (
           <Row>
             <Col className="text-center" md={4}>
-              <h4>Total {selectedCourse.length} course selected</h4>
+              <h4>Total {selectedCourse.length} Package selected</h4>
               <h6>Total Price: {totalPrice.toFixed(2)} $</h6>
 
               <button
@@ -113,7 +113,7 @@ const Cart = () => {
           </Row>
         ) : (
           <div className="text-center my-5 py-5">
-            <h1>No Course Selected!</h1>
+            <h1>No Package Selected!</h1>
           </div>
         )}
       </Container>
